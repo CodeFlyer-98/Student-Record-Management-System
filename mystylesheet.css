@@ -1,0 +1,143 @@
+*
+{
+    padding: 0;
+    margin: 0;
+}
+nav
+{
+    position: fixed;
+    background-color:blue;
+    height: 70px;
+    width: 100%;
+    z-index: 1;
+
+}
+ul
+{
+    position:relative;
+    float:right;
+    margin-right: 20px;
+
+}
+ul li{
+    display: inline-block;
+    line-height: 70px;
+    margin:0 5px;
+}
+ul li a{
+    text-decoration: none;
+    color: darkred;
+    font-size:17 px;
+    
+}
+.first_img
+{
+    width: 100%;
+    height: 300px;
+    object-fit: fill;
+}
+.sectionA
+{
+    padding-top: 70px;
+    position:relative;
+}
+.tag_line
+{
+    text-align: center;
+    top: 20%;
+    left: 30%;
+    color: white;
+    background-color: black;
+    padding-right: 20px;
+    padding-left: 20px;
+    font-size: 30px;
+}
+.institute_class
+{
+    width: 100%;
+    height: 250px;
+}
+.container
+{
+    padding-top: 10px;
+}
+.logo_txt
+{
+    font-size:25px;
+    position: relative;
+    color: black;
+    left: 5%;
+    font-weight: bold;
+    
+}
+.Courses
+{
+    width:90%;
+    height: 200px;
+}
+.label_txt
+{
+    display: inline-block;
+    width: 100px;
+    text-align: right;
+    padding-right: 10px;
+}
+.input_des
+{
+    width: 30%;
+    height: 40px;
+    border-radius: 25px;
+    border: 1 px solid black;
+}
+.enq
+{
+    padding-top: 10px;
+}
+.input_txt
+{
+    width: 30%;
+    height: 120px;
+    border-radius: 25px;
+    border: 1 px soloid black;
+}
+#submit
+{
+    position: relative;
+    width: 15%;
+    left: 5%;
+}
+.login_des
+{
+    padding-top: 200px;
+}
+.label_des
+{
+    display: inline-block;
+    color:blue;
+    width:100px;
+    text-align: right;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.login_frm
+{
+    background-color: black;
+    width: 400px;
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+.first_des
+{
+    background-color: darkslateblue;
+    color:white;
+    text-align: center;
+    font-weight: bold;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 20px;
+}
+.body_des
+{
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
